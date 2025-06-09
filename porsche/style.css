@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Orbitron;
+    background-color: #EEEFF2;
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+
+}
+
+img {
+    width: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 27px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+nav a {
+    color: black;
+    text-decoration: double;
+}
+
+h1 {
+    display: flex;
+    font-family: "Orbitron";
+    letter-spacing: 10px;
+    font-size: 45px;
+    padding-left: 14%;
+    cursor: pointer;
+
+}
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    transition: 0.5s ease;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: hsl(46, 74%, 57%);
+    transition: 0.5s ease;
+    color: hsl(46, 74%, 57%)
+}
+
+nav a:hover::after {
+    width: 100%;
+    color: hsl(46, 74%, 57%)
+}
+
+nav a:hover {
+    color: hsl(46, 74%, 57%)
+}
+
+h1::selection {
+    background-color: #EEEFF2;
+    color: hsl(46, 74%, 57%);
+}
+
+.vid {
+    display: flex;
+    align-items: center;
+}
+
+video {
+    height: 600px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.vid h2 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2::selection {
+    background-color: #EEEFF2;
+    color: hsl(46, 74%, 57%)
+}
+
+nav a::selection {
+    background-color: #EEEFF2;
+    color: hsl(46, 74%, 57%);
+}
+
+img::selection {
+    background-color: #EDEFF1;
+}
+
+#h22 {
+    text-align: center;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main2 a {
+    text-decoration: double;
+}
+
+.main2 img {
+    width: 400px;
+
+}
+
+#diff {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.paragraph2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.paragraph2::selection {
+    background-color: #EEEFF2;
+    color: hsl(46, 74%, 57%);
+}
+
+
+button {
+    width: 250px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 35px;
+    border-radius: 4px;
+}
+
+
+.turbos {
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.turbos:hover {
+    scale: 1.02;
+    box-shadow: 4px 4px 10px lightgray;
+}
+
+.gt3 {
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.gt3:hover {
+    scale: 1.02;
+    box-shadow: 4px 4px 10px lightgray;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(46, 74%, 57%);
+}
+
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2,
+p {
+    line-height: 1.2;
+    margin: 0;
+}
+
+p::selection {
+    background-color: #EEEFF2;
+    color: hsl(46, 74%, 57%);
+}
+
+
+
+.about-section {
+    max-width: 1050px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.about-section:hover{
+    scale: 1.02;
+    box-shadow:  4px 10px lightgray
+}
+
+.contact-section{
+    color: white;
+}
+
+.contactus ::selection {
+    background-color: rgb(0, 0, 0);
+    color: hsl(46, 74%, 57%);
+}
+
+#up{
+    text-decoration: dotted;
+    margin:  0 auto;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#up:hover{
+    background-color:hsl(46, 74%, 57%) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contactus{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    height:270px;
+    background-color: black;
+}
+
+

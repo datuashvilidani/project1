@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    background-color: #EEEFF2;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Orbitron;
+
+
+}
+
+
+img {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.maindiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+ 
+
+
+
+
+}
+
+h1 {
+    color: black;
+    margin: 20px;
+}
+
+#message {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(131, 0, 0);
+}
+
+#score {
+    border: 1px solid hsl(214, 18%, 8%);
+    padding: 5px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+    color: hsl(46, 74%, 57%);
+    background-color: hsl(210, 21%, 11%);
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+.maindiv:hover {
+    scale: 1.02;
+    background-color: hsl(0, 0%, 86%);
+
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+}
