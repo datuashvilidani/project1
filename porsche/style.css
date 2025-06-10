@@ -168,6 +168,7 @@ button {
     transition: 0.5s;
     margin-bottom: 35px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
